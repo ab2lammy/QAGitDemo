@@ -1,4 +1,7 @@
-def fibonacci(terms):
+def fibonacci():
+    n = input("Enter the number of terms you require ")
+    terms = int(n)
+
     n_0 = 0
     n_1 = 1
     n_2 = n_1 + n_0
